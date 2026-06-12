@@ -21,7 +21,7 @@
   // ── Skill data ─────────────────────────────────────────────
   const CENTER = {
     name: 'Python', icon: '🐍', color: '#00FFD1',
-    proficiency: 95, years: '4 years',
+    proficiency: 95,
     usedIn: 'Every project',
     category: 'core',
   };
@@ -32,10 +32,12 @@
       radius: 110,
       speed: 0.25,
       nodes: [
-        { name: 'PyTorch',     icon: '🔥', color: '#EE4C2C', proficiency: 90, years: '3 years', usedIn: '8 projects', category: 'ml'    },
-        { name: 'TensorFlow',  icon: '🧮', color: '#FF6F00', proficiency: 80, years: '2 years', usedIn: '4 projects', category: 'ml'    },
-        { name: 'NumPy',       icon: '🔢', color: '#4DABCF', proficiency: 93, years: '4 years', usedIn: '12 projects', category: 'core'  },
-        { name: 'Pandas',      icon: '🐼', color: '#150458', proficiency: 88, years: '3 years', usedIn: '10 projects', category: 'core'  },
+        { name: 'PyTorch',     icon: '🔥', color: '#EE4C2C', proficiency: 85, usedIn: '2 projects', category: 'ml'    },
+        { name: 'TensorFlow',  icon: '🧮', color: '#FF6F00', proficiency: 80, usedIn: '4 projects', category: 'ml'    },
+        { name: 'NumPy',       icon: '🔢', color: '#4DABCF', proficiency: 93, usedIn: '12 projects', category: 'core'  },
+        { name: 'Pandas',      icon: '🐼', color: '#150458', proficiency: 93, usedIn: '10 projects', category: 'core'  },
+        { name: 'Matplotlib',  icon: '🐼', color: '#150458', proficiency: 90, usedIn: '10 projects', category: 'core'  },
+        { name: 'Seaborn',  icon: '🐼', color: '#150458', proficiency: 90, usedIn: '10 projects', category: 'core'  },
       ],
     },
     // orbit 2 — mid, 5 nodes
@@ -43,11 +45,11 @@
       radius: 180,
       speed: 0.15,
       nodes: [
-        { name: 'HuggingFace', icon: '🤗', color: '#FFD21E', proficiency: 88, years: '2 years', usedIn: '6 projects', category: 'ml'    },
-        { name: 'scikit-learn',icon: '🌱', color: '#F7931E', proficiency: 85, years: '3 years', usedIn: '7 projects', category: 'ml'    },
-        { name: 'FastAPI',     icon: '⚡', color: '#05998B', proficiency: 82, years: '2 years', usedIn: '5 projects', category: 'tools' },
-        { name: 'Docker',      icon: '🐳', color: '#2496ED', proficiency: 75, years: '2 years', usedIn: '6 projects', category: 'tools' },
-        { name: 'LangChain',   icon: '🔗', color: '#00D4AA', proficiency: 80, years: '1 year',  usedIn: '3 projects', category: 'ml'    },
+        { name: 'HuggingFace', icon: '🤗', color: '#FFD21E', proficiency: 88, usedIn: '4 projects', category: 'ml'    },
+        { name: 'scikit-learn',icon: '🌱', color: '#F7931E', proficiency: 85, usedIn: '7 projects', category: 'ml'    },
+        { name: 'FastAPI',     icon: '⚡', color: '#05998B', proficiency: 82, usedIn: '5 projects', category: 'tools' },
+        { name: 'Docker',      icon: '🐳', color: '#2496ED', proficiency: 75, usedIn: '6 projects', category: 'tools' },
+        { name: 'LangChain',   icon: '🔗', color: '#00D4AA', proficiency: 80, usedIn: '1 projects', category: 'ml'    },
       ],
     },
     // orbit 3 — outer, 6 nodes
@@ -55,12 +57,12 @@
       radius: 255,
       speed: 0.09,
       nodes: [
-        { name: 'GCP',         icon: '☁️', color: '#4285F4', proficiency: 72, years: '2 years', usedIn: '4 projects', category: 'cloud' },
-        { name: 'Kubernetes',  icon: '⚙️', color: '#326CE5', proficiency: 65, years: '1 year',  usedIn: '2 projects', category: 'tools' },
-        { name: 'PostgreSQL',  icon: '🐘', color: '#336791', proficiency: 78, years: '2 years', usedIn: '5 projects', category: 'tools' },
-        { name: 'W&B',         icon: '📊', color: '#FFBE00', proficiency: 85, years: '2 years', usedIn: '6 projects', category: 'tools' },
-        { name: 'ONNX',        icon: '📦', color: '#00AEEF', proficiency: 70, years: '1 year',  usedIn: '3 projects', category: 'tools' },
-        { name: 'Redis',       icon: '🗃️', color: '#DC382D', proficiency: 68, years: '1 year',  usedIn: '2 projects', category: 'tools' },
+        { name: 'GCP',         icon: '☁️', color: '#4285F4', proficiency: 72, usedIn: '2 projects', category: 'cloud' },
+        { name: 'Kubernetes',  icon: '⚙️', color: '#326CE5', proficiency: 65, usedIn: '2 projects', category: 'tools' },
+        { name: 'MongoDB',  icon: '🐘', color: '#336791', proficiency: 78, usedIn: '3 projects', category: 'tools' },
+        { name: 'W&B',         icon: '📊', color: '#FFBE00', proficiency: 85, usedIn: '3 projects', category: 'tools' },
+        { name: 'ONNX',        icon: '📦', color: '#00AEEF', proficiency: 70, usedIn: '1 projects', category: 'tools' },
+        
       ],
     },
   ];
