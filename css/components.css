@@ -1270,8 +1270,8 @@ body.cursor-hover #cursor-ring {
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 380px;
+  display: flex;
+  justify-content: center;
   gap: var(--sp-2xl);
   align-items: start;
 }
